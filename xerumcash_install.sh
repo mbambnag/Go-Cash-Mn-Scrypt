@@ -9,7 +9,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/Realbityoda/Xerumcash/releases/download/Xerumcash/Xerumcash.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='XerumCash'
-COIN_PORT=4330
+COIN_PORT=32081
 
 
 NODEIP=$(curl -s4 icanhazip.com)
