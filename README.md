@@ -62,6 +62,6 @@ systemctl is-enabled XerumCash #To check if XerumCash service is enabled on boot
 Any donation is highly appreciated
 
 **XerumCash**: yCkkGmyWTHTzkbEqqiNb7pt9W1ez7n25XF  
-**BTH**: qzgnck23pwfag8ucz2f0vf0j5skshtuql5hmwwjhds  
+**BCH**: qzgnck23pwfag8ucz2f0vf0j5skshtuql5hmwwjhds  
 **ETH**: 0x765eA1753A1eB7b12500499405e811f4d5164554  
 **LTC**: LNt9EQputZK8djTSZyR3jE72o7NXNrb4aB  
