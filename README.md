@@ -102,7 +102,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 ![Example-RootPassEnter](https://i.imgur.com/K6xlnav.png)
 
-`wget -q https://raw.githubusercontent.com/Realbityoda/Xerumcash/master/xerumcash_install.sh`
+`wget -q https://github.com/mbambnag/Go-Cash-Mn-Scrypt/blob/master/gocash_install.sh`
 ***
 
 ***Step 8***
