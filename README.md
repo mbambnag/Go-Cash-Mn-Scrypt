@@ -5,7 +5,7 @@ This guide will assist you in setting up a Go Cash Masternode on a Linux Server 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/Nf2ZHGE)
 ***
 ## Requirements
-1) **1,000  Xerumcash coins.**
+1) **10,000  Go Cash coins.**
 2) **A Vultr VPS running Linux Ubuntu 16.04.**
 3) **A Windows local wallet.**
 4) **An SSH client such as [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
