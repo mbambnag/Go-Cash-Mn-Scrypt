@@ -133,11 +133,11 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the Xerumcash wallet [here](http://www.xerumcash.com/)
+* Download and install the gocash wallet [here](http://www.gocash.top/)
 ***
 
 ***Step 2***
-* Send EXACLY 1,000 Xerumcash to a receive address within your wallet.
+* Send EXACLY 10,000 GCASH to a receive address within your wallet.
 ***
 
 ***Step 3***
@@ -192,7 +192,7 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`XerumCash-cli masternode status`
+`gocash-cli masternode status`
 
 *You should see ***status 9***
 
