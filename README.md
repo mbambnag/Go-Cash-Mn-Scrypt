@@ -108,7 +108,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 8***
 * Paste the code below into the Bitvise terminal then press enter
 
-`bash xerumcash_install.sh`
+`bash gocash_install.sh`
 
 ![Example-Bash](https://i.imgur.com/myvmKTE.png)
 
@@ -203,7 +203,7 @@ If you do, congratulations! You have now setup a masternode. If you do not, plea
 
 Any donation is highly appreciated.  
 
-**BCH**: qzgnck23pwfag8ucz2f0vf0j5skshtuql5hmwwjhds  
-**ETH**: 0x765eA1753A1eB7b12500499405e811f4d5164554  
-**LTC**: LNt9EQputZK8djTSZyR3jE72o7NXNrb4aB  
+**BCH**: qqhu2gsq4wn56chggemkearx2kup8rg2k5288f6kpc  
+**ETH**: 0xf99ECA007E9E41c2896cE08EC81E0de98be9C45D  
+**BTC**: 15FRFKwZfX9imTLnwq6ZpcgyyvzwYqn91Y  
 
