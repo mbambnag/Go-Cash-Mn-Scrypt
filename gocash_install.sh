@@ -1,16 +1,16 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='XerumCash.conf'
-CONFIGFOLDER='/root/.XerumCash'
-COIN_DAEMON='XerumCashd'
-COIN_CLI='XerumCash-cli'
+CONFIG_FILE='gocash.conf'
+CONFIGFOLDER='/root/.gocash'
+COIN_DAEMON='gocashd'
+COIN_CLI='gocash-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='http://xerumcash.com/downloads/xerumcash_unix.tar.gz'
+COIN_TGZ='https://github.com/mbambnag/GoCash-Core/releases/download/v.1.1.1.5/linux-cli1.5.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='XerumCash'
-COIN_PORT=32081
-RPC_PORT=32080
+COIN_NAME='GoCash'
+COIN_PORT=9911
+RPC_PORT=6712
 
 NODEIP=$(curl -s4 icanhazip.com)
 
@@ -26,15 +26,15 @@ MAG='\e[1;35m'
 purgeOldInstallation() {
     echo -e "${GREEN}Searching and removing old $COIN_NAME files and configurations${NC}"
     #kill wallet daemon
-	sudo killall XerumCashd > /dev/null 2>&1
+	sudo killall gocashd > /dev/null 2>&1
     #remove old ufw port allow
-    sudo ufw delete allow 32081/tcp > /dev/null 2>&1
+    #sudo ufw delete allow 32081/tcp > /dev/null 2>&1
     #remove old files
-    if [ -d "~/.XerumCash" ]; then
-        sudo rm -rf ~/.XerumCash > /dev/null 2>&1
+    if [ -d "~/.gocash" ]; then
+        sudo rm -rf ~/.gocash > /dev/null 2>&1
     fi
     #remove binaries and XerumCash utilities
-    cd /usr/local/bin && sudo rm XerumCash-cli XerumCash-tx XerumCashd > /dev/null 2>&1 && cd
+    cd /usr/local/bin && sudo rm gocash-cli gocash-tx gocashd > /dev/null 2>&1 && cd
     echo -e "${GREEN}* Done${NONE}";
 }
 
