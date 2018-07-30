@@ -1,6 +1,6 @@
 ![Example-Logo](http://185.201.9.158:3001/images/logo.png)
-# Xerumcash Masternode Setup Guide (Ubuntu 16.04)
-This guide will assist you in setting up a Xerumcash Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
+# Gocash Masternode Setup Guide (Ubuntu 16.04)
+This guide will assist you in setting up a Go Cash Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/Nf2ZHGE)
 ***
