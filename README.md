@@ -1,4 +1,4 @@
-![Example-Logo](http://185.201.9.158:3001/images/logo.png)
+![Example-Logo](https://thumb.ibb.co/meYAve/gocash_logo.png)
 # Gocash Masternode Setup Guide (Ubuntu 16.04)
 This guide will assist you in setting up a Go Cash Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
