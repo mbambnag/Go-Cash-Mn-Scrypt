@@ -102,13 +102,13 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 ![Example-RootPassEnter](https://i.imgur.com/K6xlnav.png)
 
-`wget -q https://github.com/mbambnag/Go-Cash-Mn-Scrypt/blob/master/gocash_install.sh`
+`git clone https://github.com/mbambnag/Go-Cash-Mn-Scrypt.git
 ***
 
 ***Step 8***
 * Paste the code below into the Bitvise terminal then press enter
-
-`bash gocash_install.sh`
+`chmod -x gocash_install.sh
+`./gocash_install.sh`
 
 ![Example-Bash](https://i.imgur.com/myvmKTE.png)
 
