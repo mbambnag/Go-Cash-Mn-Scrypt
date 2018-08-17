@@ -10,7 +10,7 @@ COIN_TGZ='https://github.com/mbambnag/GoCash-Core/releases/download/v.1.1.1.5/li
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='GoCash'
 COIN_PORT=9911
-RPC_PORT=6712
+RPC_PORT=9911
 
 NODEIP=$(curl -s4 icanhazip.com)
 
