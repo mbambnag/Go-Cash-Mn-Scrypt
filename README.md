@@ -107,7 +107,8 @@ If you require further assistance contact the support team @ [Discord](https://d
 
 ***Step 8***
 * Paste the code below into the Bitvise terminal then press enter
-`chmod -x gocash_install.sh
+`chmod +x gocash_install.sh  
+* Paste the code below into the Bitvise terminal then press enter
 `./gocash_install.sh
 
 ![Example-Bash](https://i.imgur.com/myvmKTE.png)
