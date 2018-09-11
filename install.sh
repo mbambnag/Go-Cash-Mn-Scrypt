@@ -215,13 +215,6 @@ sudo systemctl start gocashd.service
 #echo "Your masternode is syncing. Please wait for this process to finish."
 #echo "CTRL+C to exit the masternode sync once you see the MN ENABLED in your local wallet." && echo ""
 
-#until su -c "gocash-cli startmasternode local false 2>/dev/null | grep 'successfully started' > /dev/null" $USER; do
-#  for (( i=0; i<${#CHARS}; i++ )); do
-#    sleep 2
-#    echo -en "${CHARS:$i:1}" "\r"
-#  done
-#done
-
 sleep 1
 su -c "/usr/local/bin/gocash-cli startmasternode local false" $USER
 sleep 1
