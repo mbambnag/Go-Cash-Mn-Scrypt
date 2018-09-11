@@ -1,16 +1,9 @@
 #!/bin/bash
-clear
 
 # Set these to change the version of Go Cash to install
 TARBALLURL="https://github.com/mbambnag/GoCash-Core/releases/download/v.1.1.1.5/linux-cli1.5.tar.gz"
 TARBALLNAME="linux-cli1.5.tar.gz"
 VERSION="1.1.5"
-
-# Check if we are root
-if [ "$(id -u)" != "0" ]; then
-   echo "This script must be run as root." 1>&2
-   exit 1
-fi
 
 # Check if we have enough memory
 if [[ `free -m | awk '/^Mem:/{print $2}'` -lt 900 ]]; then
