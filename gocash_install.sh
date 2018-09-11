@@ -23,21 +23,6 @@ GREEN="\033[0;32m"
 NC='\033[0m'
 MAG='\e[1;35m'
 
-purgeOldInstallation() {
-    echo -e "${GREEN}Searching and removing old $COIN_NAME files and configurations${NC}"
-    #kill wallet daemon
-	sudo killall gocashd > /dev/null 2>&1
-    #remove old ufw port allow
-    #sudo ufw delete allow 32081/tcp > /dev/null 2>&1
-    #remove old files
-    if [ -d "~/.gocash" ]; then
-        sudo rm -rf ~/.gocash > /dev/null 2>&1
-    fi
-    #remove binaries and GoCash utilities
-    cd /usr/local/bin && sudo rm gocash-cli gocash-tx gocashd > /dev/null 2>&1 && cd
-    echo -e "${GREEN}* Done${NONE}";
-}
-
 function download_node() {
   echo -e "${GREEN}Downloading and Installing VPS $COIN_NAME Daemon${NC}"
   cd $TMP_FOLDER >/dev/null 2>&1
@@ -245,7 +230,6 @@ function setup_node() {
 ##### Main #####
 clear
 
-purgeOldInstallation
 checks
 download_node
 setup_node
