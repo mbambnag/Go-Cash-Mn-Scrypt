@@ -33,7 +33,7 @@ purgeOldInstallation() {
     if [ -d "~/.gocash" ]; then
         sudo rm -rf ~/.gocash > /dev/null 2>&1
     fi
-    #remove binaries and XerumCash utilities
+    #remove binaries and GoCash utilities
     cd /usr/local/bin && sudo rm gocash-cli gocash-tx gocashd > /dev/null 2>&1 && cd
     echo -e "${GREEN}* Done${NONE}";
 }
