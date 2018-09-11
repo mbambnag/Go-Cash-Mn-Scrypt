@@ -6,11 +6,11 @@ CONFIGFOLDER='/root/.gocash'
 COIN_DAEMON='gocashd'
 COIN_CLI='gocash-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/mbambnag/GoCash-Core/releases/download/v.1.1.1.51/lin-gocash-cli.tar.gz'
+COIN_TGZ='https://github.com/mbambnag/GoCash-Core/releases/download/v.1.1.1.5/linux-cli1.5.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='GoCash'
 COIN_PORT=9911
-RPC_PORT=9911
+RPC_PORT=6712
 
 NODEIP=$(curl -s4 icanhazip.com)
 
@@ -212,7 +212,6 @@ fi
 function important_information() {
  echo
  echo -e "${BLUE}================================================================================================================================${NC}"
- echo -e "${PURPLE}Windows Wallet Guide. https://github.com/Realbityoda/XerumCash/blob/master/README.md${NC}"
  echo -e "${BLUE}================================================================================================================================${NC}"
  echo -e "$COIN_NAME Masternode is up and running listening on port ${GREEN}$COIN_PORT${NC}."
  echo -e "Configuration file is: ${RED}$CONFIGFOLDER/$CONFIG_FILE${NC}"
@@ -223,7 +222,6 @@ function important_information() {
  echo -e "Please check ${RED}$COIN_NAME${NC} is running with the following command: ${RED}systemctl status $COIN_NAME.service${NC}"
  echo -e "Use ${RED}$COIN_CLI masternode status${NC} to check your MN."
  echo -e "${BLUE}================================================================================================================================"
- echo -e "${CYAN}Follow twitter to stay updated.  https://twitter.com/Real_Bit_Yoda${NC}"
  echo -e "${BLUE}================================================================================================================================${NC}"
  echo -e "${GREEN}Donations accepted but never required.${NC}"
  echo -e "${BLUE}================================================================================================================================${NC}"
